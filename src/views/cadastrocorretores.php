@@ -1,3 +1,15 @@
+<?php
+    
+    namespace views;
+
+    require_once __DIR__ . '/../../vendor/autoload.php';
+
+    use util\Alertas;
+
+    Alertas::mostrarMensagem();
+
+?>
+
 <!DOCTYPE html>
 <html lang="pt-BR">
 

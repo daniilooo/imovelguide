@@ -9,7 +9,8 @@
             "DAO\\": "src/DAO/",
             "database\\": "src/database/",
             "rn\\": "src/rn/",
-            "constantes\\": "src/constantes/"
+            "constantes\\": "src/constantes/",
+            "util\\": "src/Util/"
         }
     },
     "authors": [
