@@ -1,0 +1,14 @@
+{
+    "name": "danilo.franco/imovelguide",
+    "autoload": {
+        "psr-4": {
+            "DaniloFranco\\Imovelguide\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Danilo Franco"
+        }
+    ],
+    "require": {}
+}
