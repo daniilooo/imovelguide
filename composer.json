@@ -2,7 +2,14 @@
     "name": "danilo.franco/imovelguide",
     "autoload": {
         "psr-4": {
-            "DaniloFranco\\Imovelguide\\": "src/"
+            "DaniloFranco\\Imovelguide\\": "src/",
+            "models\\": "src/models/",
+            "views\\": "src/views/",
+            "controllers\\": "src/controllers/",
+            "DAO\\": "src/DAO/",
+            "database\\": "src/database/",
+            "rn\\": "src/rn/",
+            "constantes\\": "src/constantes/"
         }
     },
     "authors": [
