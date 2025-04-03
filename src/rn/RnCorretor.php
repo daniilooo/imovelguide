@@ -9,6 +9,9 @@ use DAO\DaoCorretor;
 use database\Conexao;
 use Exception;
 
+
+//regras de negócio
+
 class RnCorretor{
     
     function inserirCorretor(Corretor $corretor){
