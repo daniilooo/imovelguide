@@ -48,6 +48,15 @@ class Corretor{
     function getCreci(){
         return $this->creci;
     }
+
+    function toArray(){
+        return [
+            'idCorretor' => $this->getIdCorretor(),
+            'nome' => $this->getNomeCorretor(),
+            'cpf' => $this->getCpf(),
+            'creci' => $this->getCreci()
+        ];
+    }
 }
 
 ?>
